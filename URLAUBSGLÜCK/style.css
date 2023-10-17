@@ -1,0 +1,207 @@
+:root {
+    --btn-color: #FF4E50;
+    --main-text-color: #FFF;
+    --black-text-color: #333;
+    --gray-text-color: #666;
+}
+
+
+/* nav */
+
+header {
+    background-image: url(./image/bkg.png);
+    background-size: cover;
+}
+
+.wrap-nav {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 700px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+
+.title {
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.log-in {
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 7px 11px 7px 11px;
+    border-radius: 20px;
+}
+.log-in:hover {
+    transition: 0.5s;
+    color: var(--black-text-color);
+    background-color: var(--main-text-color);
+}
+.sign-up {
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 7px 11px 7px 11px;
+    outline: 2px solid var(--main-text-color);
+    border-radius: 20px;
+}
+.sign-up:hover {
+    transition: 0.5s;
+    color: var(--black-text-color);
+    background-color: var(--main-text-color);
+}
+
+/* hero */
+
+.hero {
+    padding-top: 134px;
+    text-align: center;
+}
+.hero-title {
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    max-width: 508px;
+    margin: 0 auto;
+}
+.hero-desc {
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 36px;
+    padding-bottom: 33px;
+}
+.hero-btn {
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 13px 13px 13px 13px;
+    outline: 2px solid var(--btn-color);
+    background-color: var(--btn-color);
+    border-radius: 20px;
+}
+.hero-btn:hover {
+    transition: 0.5s;
+    color: var(--main-text-color);
+    outline: 2px solid var(--main-text-color);
+}
+
+/* main */
+
+.main {
+    max-width: 914px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-title {
+    color: var(--black-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 65px;
+    padding-bottom: 31px;
+}
+
+
+.human-list {
+    max-width: 914px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.human-item {
+    max-width: 194px;
+    width: 100%;
+}
+.human-img {
+    max-width: 120px;
+    width: 100%;
+    height: 120px;
+}
+.human-title {
+    color: var(--black-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 16px;
+    padding-bottom: 13px;
+}
+.human-desc {
+    color: var(--gray-text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* footer */
+
+.wrap-footer {
+    padding-top: 37px;
+    padding-bottom: 72px;
+    max-width: 914px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-btn {
+    color: var(--btn-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 10px 17px 10px 17px;
+    outline: 2px solid var(--btn-color);
+    border-radius: 20px;
+}
+.footer-btn:hover {
+    transition: 0.5s;
+    color: var(--main-text-color);
+    background-color: var(--btn-color);
+    outline: 2px solid var(--btn-color);
+}
