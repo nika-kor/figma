@@ -11,8 +11,24 @@ body  {
     max-width: 1300px;
     width: 100%;
     padding: 0px 15px 0px 15px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
+}
+
+/* scrol */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--black-color);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--title-color);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb:hover {
+    transition: 0.5s;
+    background-color: #c7b570;
 }
 
 /* header */
@@ -136,7 +152,7 @@ body  {
     padding-bottom: 32px;
 }
 .hero-btn {
-    transition: 0.5s;
+    transition: all 1s;
     color: var(--black-color);
     font-family: "Cormorant Upright";
     font-size: 16px;
@@ -278,9 +294,9 @@ body  {
 
     padding: 8px 32px 8px 32px;
     background-color: var(--title-color);
+    transition: all 1s;
 }
 .about-btn:hover {
-    transition: 0.5s;
     color: var(--title-color);
     background-color: var(--black-color);
     outline: 2px solid var(--title-color);
@@ -379,9 +395,9 @@ body  {
 
     padding: 8px 32px 8px 32px;
     background-color: var(--title-color);
+    transition: all 1s;
 }
 .btn-book:hover {
-    transition: 0.5s;
     background-color: var(--black-color);
     outline: 2px solid var(--title-color);
     color: var(--title-color);
@@ -430,9 +446,9 @@ body  {
     letter-spacing: 1.92px;
     text-transform: capitalize;
     /* padding-left: 130px; */
+    transition: all 1s;
 }
 .menu-title:hover {
-    transition: 1s;
     text-decoration-line: underline;
 }
 
@@ -484,9 +500,9 @@ body  {
 
     padding: 8px 32px 8px 32px;
     background-color: var(--title-color);
+    transition: all 1s;
 }
 .special-btn:hover {
-    transition: 0.5s;
     color: var(--title-color);
     background-color: var(--black-color);
     outline: 2px solid var(--title-color);
@@ -915,15 +931,14 @@ body  {
 .updates-list-main {
     display: flex;
     justify-content: space-between;
-    gap: 32px;
     padding-bottom: 64px;
 }
 .updates-list {
     text-align: left;
-    width: 370px;
+    width: 412px;
 }
 .updates-img {
-    width: 370px;
+    width: 412px;
     padding-bottom: 24px;
 }
 .updates-item-p {
@@ -984,9 +999,9 @@ body  {
 
     padding: 8px 32px 8px 32px;
     background-color: var(--title-color);
+    transition: all 1s;
 }
 .updates-btn:hover {
-    transition: 0.5s;
     color: var(--title-color);
     background-color: var(--black-color);
     outline: 2px solid var(--title-color);
@@ -1057,9 +1072,9 @@ body  {
     letter-spacing: 0.64px;
     padding: 8px 32px 8px 32px;
     background-color: var(--title-color);
+    transition: all 1s;
 }
 .gallery-btn:hover {
-    transition: 0.5s;
     color: var(--title-color);
     background-color: var(--black-color);
     outline: 2px solid var(--title-color);
@@ -1069,10 +1084,17 @@ body  {
     right: -400px;
     display: flex;
     gap: 32px;
-    /* overflow: hidden; */
 }
 .gallery-img {
     width: 301px;
     height: 440px;
-    /* overflow: auto; */
+    display: block;
+    transition: all 1s;
+}
+.gallery-img:hover {
+    width: 301px;
+    height: 440px;
+    display: block;
+    outline: 2px solid rgba(220, 202, 135, 0.20);
+    background-image: linear-gradient(208deg, rgba(0, 0, 0, 0.9) 1.5%, rgba(0, 0, 0, 0.9) 98.62%);
 }
